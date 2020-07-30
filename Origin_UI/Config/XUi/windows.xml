@@ -82,13 +82,16 @@
 					</rect>
 
 					<!-- Food -->
-					<rect width="81" height="43" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+					<rect width="81" height="43" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
 						<sprite depth="1" name="border" color="0,0,0,150" height="43" type="sliced"/>
 					 	<sprite depth="2" name="background" color="64,64,64,100" type="sliced" />
 						<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
-						<sprite depth="4" color="52,174,86" type="filled" fill="{playerfoodfill}" controller="PlayerStatsWindow" />
+						<!--<sprite depth="4" color="52,174,86" type="filled" fill="{playerfoodfill}" controller="PlayerStatsWindow" />-->
+						<filledsprite depth="4" name="BarContent" type="filled" color="52,137,167,192" fill="2" />
+
 						<sprite depth="5" name="Icon" sprite="ui_game_symbol_fork" size="22,22" pos="8,-11" foregroundlayer="true"/>
 						<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{playerfood} %" height="30" controller="PlayerStatsWindow" effect="outline" />
+						<sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"/>
 						<filledsprite depth="8" name="background" color="0,0,0,255" width="81" fillcenter="false" type="filled" fill="1" />
 						<filledsprite depth="3" name="background" color="0,0,0,255" width="80" fillcenter="false" type="filled" fill="1" />
 					</rect>
