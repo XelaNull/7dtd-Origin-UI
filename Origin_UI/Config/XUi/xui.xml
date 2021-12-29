@@ -1,19 +1,20 @@
 <configs>
 
-	<!-- 
+	<!--
 
 			Origin - "7 Days to Die" UI Mod by Tritox:
 
 		Game version:	A17.1 (b9), compatible with A17.3
 		Mod version:	1.02
 		Date:		19.1.2019
-	
+
 	-->
 
 	<!-- HUD Info Panel -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="HUDInfoPanel" />
 	</append>
+
 
 	<!-- HUD Temperature Water Food -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
@@ -41,6 +42,7 @@
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="ORGN_windowCompass" />
 	</append>
+
 
 	<!-- Window Quest Tracker -->
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='windowQuestTracker']"/>
