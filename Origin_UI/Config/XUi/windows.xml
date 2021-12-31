@@ -61,10 +61,8 @@
 					<sprite depth="2" name="background" color="64,64,64,100" type="sliced" />
 					<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
 					<filledsprite depth="4" name="BarContent" type="filled" color="52,137,167,192" fill="2" /> <!-- YseGuy_added -->
-					<!-- <sprite name="WaterFill" depth="4" type="filled" color="52,137,167,192" fill="{statfill}" /> YseGuy_commented out -->
 					<sprite depth="5" name="Icon" sprite="ui_game_symbol_water" size="20,20" pos="8,-11" foregroundlayer="true"/>
-					<label depth="6" name="TextContent" pos="30,-14" font_size="14" color="[white]" pivot="topleft" text="{statcurrentwithmax}" height="30" effect="outline" />
-<!--					<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />-->
+					<label depth="6" name="TextContent" pos="35,-14" font_size="18" color="[white]" pivot="topleft" text="{statcurrent} %" height="30" effect="outline" />
 
 					<sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"/>
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="81" fillcenter="false" type="filled" fill="1" />
@@ -80,8 +78,7 @@
 					<filledsprite depth="4" name="BarContent" type="filled" color="52,137,167,192" fill="2" />
 
 					<sprite depth="5" name="Icon" sprite="ui_game_symbol_fork" size="20,20" pos="8,-11" foregroundlayer="true"/>
-					<!--<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />-->
-					<label depth="6" name="TextContent" pos="30,-14" font_size="14" color="[white]" pivot="topleft" text="{statcurrentwithmax}" height="30" effect="outline" />
+					<label depth="6" name="TextContent" pos="35,-14" font_size="18" color="[white]" pivot="topleft" text="{statcurrent} %" height="30" effect="outline" />
 					<sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"/>
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="81" fillcenter="false" type="filled" fill="1" />
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="80" fillcenter="false" type="filled" fill="1" />
