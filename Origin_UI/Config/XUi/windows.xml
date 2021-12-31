@@ -30,7 +30,7 @@
 
 	<!-- Add vertical line to the compass -->
 	<append xpath="/windows/window[@name='windowCompass']">
-			<sprite depth="11" pos="224,0" width="1" color="[white]" type="sliced" />
+			<sprite depth="11" pos="256,0" width="1" color="[white]" type="sliced" />
 	</append>
 	<!-- Remove Day & Time -->
 	<remove xpath="/windows/window[@name='windowCompass']/sprite[@pos='240,-60']"/>
