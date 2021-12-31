@@ -62,10 +62,9 @@
 					<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
 					<filledsprite depth="4" name="BarContent" type="filled" color="52,137,167,192" fill="2" /> <!-- YseGuy_added -->
 					<!-- <sprite name="WaterFill" depth="4" type="filled" color="52,137,167,192" fill="{statfill}" /> YseGuy_commented out -->
-					<sprite depth="5" name="Icon" sprite="ui_game_symbol_water" size="22,22" pos="8,-11" foregroundlayer="true"/>
-					<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />
-					<!-- <label name="TextContent" depth="7" pos="0,-7" text="{statcurrent}%" font_size="16" color="[white]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" pivot="topleft" /> -->
-
+					<sprite depth="5" name="Icon" sprite="ui_game_symbol_water" size="20,20" pos="8,-11" foregroundlayer="true"/>
+					<label depth="6" name="TextContent" pos="30,-14" font_size="14" color="[white]" pivot="topleft" text="{statcurrentwithmax}" height="30" effect="outline" />
+<!--					<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />-->
 
 					<sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"/>
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="81" fillcenter="false" type="filled" fill="1" />
@@ -80,12 +79,30 @@
 					<!--<sprite depth="4" color="52,174,86" type="filled" fill="{playerfoodfill}" controller="HUDStatBar" />-->
 					<filledsprite depth="4" name="BarContent" type="filled" color="52,137,167,192" fill="2" />
 
-					<sprite depth="5" name="Icon" sprite="ui_game_symbol_fork" size="22,22" pos="8,-11" foregroundlayer="true"/>
-					<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />
+					<sprite depth="5" name="Icon" sprite="ui_game_symbol_fork" size="20,20" pos="8,-11" foregroundlayer="true"/>
+					<!--<label depth="6" name="TextContent" pos="35,-14" font_size="20" color="[white]" pivot="topleft" text="{statcurrentwithmax} %" height="30" controller="HUDStatBar" effect="outline" />-->
+					<label depth="6" name="TextContent" pos="30,-14" font_size="14" color="[white]" pivot="topleft" text="{statcurrentwithmax}" height="30" effect="outline" />
 					<sprite depth="8" name="border" color="0,0,0,255" height="43" type="sliced" fillcenter="false"/>
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="81" fillcenter="false" type="filled" fill="1" />
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="80" fillcenter="false" type="filled" fill="1" />
 				</rect>
+
+<!--
+				<rect pos="1,-64" width="75" height="77"  controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+					<sprite depth="1" name="border" color="0,0,0,235" type="sliced" />
+					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+					<filledsprite depth="3" name="background" color="110,110,110,128" width="75" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="5" name="BarContent" color="0,150,54,180" width="75" type="filled" fill="0" filldirection="vertical" />
+					<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" size="22,28" pos="11,-47" foregroundlayer="true"/>
+					<label depth="7" name="TextContent" pos="2,-2" font_size="20" color="[white]" text="{statcurrent}%" height="34" width="42" justify="center"  />
+					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
+					<filledsprite depth="8" name="background" color="0,0,0,255" width="75" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
+					<filledsprite depth="3" name="background" color="0,0,0,255" width="75" fillcenter="false" type="filled" fill="{statmodifiedmax}"/>
+				</rect>
+			-->
+
+
+
 			</grid>
 		</window>
 
