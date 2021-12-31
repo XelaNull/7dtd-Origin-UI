@@ -2,12 +2,9 @@
 
 	<!--
 
-		Origin - "7 Days to Die" UI Mod by Tritox, tweaked by YseGuy:
+		Origin - "7 Days to Die" UI Mod by Tritox, originaly tweaked by YseGuy, then updated by ShoudenKalferas:
 
-		Game version:	A17.1 (b9), compatible with A17.3
-		Mod version:	1.02
-		Tweak(s):	Added red display of bloodmoon days
-		Date:		19.1.2019 / 19.05.2019
+		Game version:	A20 (b238)
 
 	-->
 
@@ -31,8 +28,9 @@
 	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@pos">35,-3</set>
 	<set xpath="/windows/window[@name='windowCompass']/texture/@pos">35,-12</set>
 
+	<!-- Add vertical line to the compass -->
 	<append xpath="/windows/window[@name='windowCompass']">
-			<sprite depth="11" pos="274,0" width="1" color="[white]" type="sliced" />
+			<sprite depth="11" pos="224,0" width="1" color="[white]" type="sliced" />
 	</append>
 	<!-- Remove Day & Time -->
 	<remove xpath="/windows/window[@name='windowCompass']/sprite[@pos='240,-60']"/>
@@ -47,9 +45,6 @@
 		<!-- ============================================================== -->
 
 		<!-- [NEW] HUDInfoPanel : Day, time, world temperature and elevation indicators (top left) -->
-
-
-		<!-- <window name="ORGN_windowCompass" anchor="CenterTop" pos="-240,-9" width="480" height="43" controller="CompassWindow"> -->
 
 		<window name="HUDInfoPanel" style="infopanel.window" controller="CompassWindow">
 			<texture name="compassTexture" /> <!-- Required by CompassWindow-controller and removing the element will cause an unexpected error during the startup -->
