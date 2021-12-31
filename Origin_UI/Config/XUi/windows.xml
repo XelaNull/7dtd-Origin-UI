@@ -30,6 +30,9 @@
 	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@pos">32,0</set>
 	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@pos">35,-3</set>
 	<set xpath="/windows/window[@name='windowCompass']/texture/@pos">35,-12</set>
+
+	<!-- Remove Day & Time -->
+	<remove xpath="/windows/window[@name='windowCompass']/sprite[@pos='240,-60']"/>
 	<!-- End Compass Modifications -->
 
 	<append xpath="/windows">
@@ -265,26 +268,6 @@
 				</panel>
 			</rect>
 		</window>
-
-		<!-- [MODDED] windowCompass : Compass (top center)
-
-			 Changes: 1) added simple sprite for the direction player is facing.
-				  2) removed the day and time display.
-		-->
-
-
-<!--
-		<window name="ORGN_windowCompass" anchor="CenterTop" pos="-240,-9" width="480" height="43" controller="CompassWindow">
-			<sprite depth="0" sprite="ui_game_header_fill" pos="47,0" width="386" height="43" type="sliced" color="150,150,150,150" />
-			<sprite depth="1" sprite="ui_game_header_fill" pos="50,-3" width="380" height="37" type="sliced" color="40,40,40,220" />
-
-			<sprite depth="11" pos="239,0" width="1" color="[white]" type="sliced" />
-			<texture depth="8" texture="Textures/UI/Compass/overlay-{gamelanguage}" pos="50, -12" width="380" height="27" color="[iconColor]" name="compassTexture3" rect_size="0.25,1" rect_offset="{#compass_rotation / 360 + 0.0625 - 0.125},0" />
-		</window>
--->
-
-
-
 
 
 		<!-- [MODDED] windowQuestTracker : Active quest tracker (top right)
