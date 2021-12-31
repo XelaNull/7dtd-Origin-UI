@@ -38,10 +38,12 @@
 	</append>
 
 	<!-- Window Compass -->
+	<!--
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']"/>
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="ORGN_windowCompass" />
 	</append>
+-->
 
 
 	<!-- Window Quest Tracker -->

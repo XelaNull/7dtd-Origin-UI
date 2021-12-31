@@ -13,6 +13,25 @@
 
 	<remove xpath="/windows/window[@name='ingameMenu']"/>
 
+
+	<!-- Begin Compass Modifications -->
+	<!-- Taken from AuroraGiggleFairy's A20HUDPlus -->
+	<set xpath="/windows/window[@name='windowCompass']/@pos">-260,-9</set>
+	<set xpath="/windows/window[@name='windowCompass']/@width">550</set>
+
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@color">0,0,0,235</set>
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@color">120,120,120,235</set>
+
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@width">456</set>
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@width">450</set>
+	<set xpath="/windows/window[@name='windowCompass']/texture/@width">450</set>
+
+
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='0']/@pos">32,0</set>
+	<set xpath="/windows/window[@name='windowCompass']/sprite[@depth='1']/@pos">35,-3</set>
+	<set xpath="/windows/window[@name='windowCompass']/texture/@pos">35,-12</set>
+	<!-- End Compass Modifications -->
+
 	<append xpath="/windows">
 
 		<!--  NOTE:
@@ -253,38 +272,16 @@
 				  2) removed the day and time display.
 		-->
 
-		<!--
 
-		<window name="ORGN_windowCompass" style="compass.window" controller="CompassWindow">
-			<sprite style="compass.window.background.border"/>
-			<sprite style="compass.window.background"/>
-			<sprite style="compass.window.compass.background">
-			<sprite depth="11" pos="190,0" width="1" color="[white]" type="sliced" />
-			</sprite>
-			<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
-			</texture>
-
-		</window>
-	-->
-
+<!--
 		<window name="ORGN_windowCompass" anchor="CenterTop" pos="-240,-9" width="480" height="43" controller="CompassWindow">
 			<sprite depth="0" sprite="ui_game_header_fill" pos="47,0" width="386" height="43" type="sliced" color="150,150,150,150" />
 			<sprite depth="1" sprite="ui_game_header_fill" pos="50,-3" width="380" height="37" type="sliced" color="40,40,40,220" />
 
 			<sprite depth="11" pos="239,0" width="1" color="[white]" type="sliced" />
-
-
-			<!--<texture depth="8" texture="Textures/UI/ui_game_compass" pos="50, -15" width="380" height="23" color="[iconColor]" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" />-->
-
 			<texture depth="8" texture="Textures/UI/Compass/overlay-{gamelanguage}" pos="50, -12" width="380" height="27" color="[iconColor]" name="compassTexture3" rect_size="0.25,1" rect_offset="{#compass_rotation / 360 + 0.0625 - 0.125},0" />
-
-	<!--
-			<sprite pos="240,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-				<label depth="2" width="300" height="30" text="{daytitle}: [{daycolor}]{day}[-] {timetitle}: {time}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
-			</sprite>
-		-->
 		</window>
-
+-->
 
 
 
