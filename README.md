@@ -1,4 +1,6 @@
 ![OriginUILogo](Origin_UI/images/originui_header.png)
+<p align="center">Compatible with 7DTD v1.0</p>
+
 There are already rather many UI mods to 7 Days to Die and this is Tritox’s contribution. The mod isn’t entirely new, he just (finally) came up a name for it. The old version(Tuning the A13 UI) for this mod won’t be updated anymore.
 
 The main idea of Origin is to keep the UI’s look as close as possible to the original 7DTD UI (hence the mod name) while spicing up the UI with some quality of life changes. Though Tritox do keep the right to slightly deviate from this guideline if it’s best for the overall look of the mod.
