@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-		<Name value="Origin_UI" />
-		<DisplayName value="Origin UI" />		
-		<Description value="UI mod which adds some more details to the UI while trying to keep the original UI's feeling." />
-		<Author value="Tritox, updated for 1.0 by ShoudenKalferas, addtl credits to Sirillion, Red Eagle LXIX, YseGuy" />
-		<Version value="1.0.1.4" />
-		<Website value="" />
+		<Name value="Origin_UI"/>
+		<DisplayName value="Origin UI"/>		
+		<Description value="UI mod which adds some more details to the UI while trying to keep the original UI's feeling."/>
+		<Author value="Tritox, updated for 1.0 by ShoudenKalferas, addtl credits to Sirillion, Red Eagle LXIX, YseGuy"/>
+		<Version value="1.0.1.0"/>
+		<Website value="https://github.com/XelaNull/7dtd-Origin-UI"/>
 </xml>
